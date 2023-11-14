@@ -17,17 +17,17 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-collections", from: "1.0.2"),
-    .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
-    .package(url: "https://github.com/google/swift-benchmark", from: "0.1.0"),
-    .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-case-paths", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-concurrency-extras", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-custom-dump", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-dependencies", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swift-identified-collections", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/swiftui-navigation", from: "1.0.0"),
-    .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", from: "1.0.0"),
+    .package(url: "https://github.com/apple/swift-collections", exact: "1.0.5"),
+    .package(url: "https://github.com/apple/swift-docc-plugin", exact: "1.3.0"),
+    .package(url: "https://github.com/google/swift-benchmark", exact: "0.1.2"),
+    .package(url: "https://github.com/pointfreeco/combine-schedulers", exact: "1.0.0"),
+    .package(url: "https://github.com/pointfreeco/swift-case-paths", exact: "1.0.0"),
+    .package(url: "https://github.com/pointfreeco/swift-concurrency-extras", exact: "1.1.0"),
+    .package(url: "https://github.com/pointfreeco/swift-custom-dump", exact: "1.1.1"),
+    .package(url: "https://github.com/pointfreeco/swift-dependencies", exact: "1.0.0"),
+    .package(url: "https://github.com/pointfreeco/swift-identified-collections", exact: "1.0.0"),
+    .package(url: "https://github.com/pointfreeco/swiftui-navigation", exact: "1.0.0"),
+    .package(url: "https://github.com/pointfreeco/xctest-dynamic-overlay", exact: "1.0.2"),
   ],
   targets: [
     .target(
